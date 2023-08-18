@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/loguin.css">
+    <script src="https://kit.fontawesome.com/093989ebb4.js" crossorigin="anonymous"></script>
+    
+    <title>Loguin</title>
+</head>
+<body>
+
+   
+<div class="container" id="container">
+	<div class="form-container sign-up-container">
+        <!--FORMULARIO PARA INICIAR SESION-->
+		<form action="#">
+			<h1>Crear una cuenta</h1>
+			<div class="social-container">
+				<!-- GRUPO DE ICONOS PARA QUE FUNCIONEN HAY QUE TENER UNA CUENTA EN FONT AWESOME ->> https://fontawesome.com/ PARA QUE SE VISUALICEN -->
+				<a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+				<a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+				<a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+			</div>
+			<span>Usa tu email para registrarte</span>
+			<input type="text" placeholder="Nombre" />
+			<input type="email" placeholder="Email" />
+			<input type="password" placeholder="Contraseña" />
+			<button>Iniciar sesión</button>
+		</form>
+	</div>
+	<div class="form-container sign-in-container">
+        <!-- FORMULARIO PARA REGISTRARSE-->
+		<form action="#">
+			<h1>Iniciar sesión</h1>
+			<div class="social-container">
+				<a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+				<a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+				<a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+			</div>
+			<span>Usa tu cuenta</span>
+			<input type="email" placeholder="Email" />
+			<input type="password" placeholder="Contraseña" />
+			<a href="#">Olvido su contraseña?</a>
+			<button>Iniciar sesión</button>
+		</form>
+	</div>
+	<div class="overlay-container">
+		<div class="overlay">
+            <!--OVERLAY DE INICIO DE SESION-->
+			<div class="overlay-panel overlay-left">
+				<h1>Bienvenido de nuevo!</h1>
+				<p>Para mantenerte en contacto con nosotros, inicia sesión con tus datos personales</p>
+				<button class="ghost" id="signIn">Iniciar sesión</button>
+			</div>
+            <!--OVERLAY DE CREAR CUENTA O REGISTRARSE -->
+			<div class="overlay-panel overlay-right">
+				<h1>Hola, amigo!</h1>
+				<p>Introduce tus datos personales y empieza a viajar con nosotros</p>
+				<button class="ghost" id="signUp">Registrarse</button>
+			</div>
+		</div>
+	</div>
+    <!-- JS DEL LOGUIN, DESPLAZAMIENTO DE PANTALLA -->
+    <script src="Js/loguin.js"></script>
+</div>
+
+<footer>
+	<p>
+		Creado  <i class="fa-brands fa-github"></i> por
+		<a target="_blank" href="#">DIgitalTech</a>
+		- Para la tecnologia de Analisis y desarrollo de software 
+		<a target="_blank" href="https://www.youtube.com/watch?v=8t3a_aEJM3Y">Aqui    </a>.
+	</p>
+</footer>
+    
+</body>
+</html>
